@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display:flex;
+    justify-content: flex-end;
+    gap:10px;
+    padding: 10px;
+}
+span{
+    text-decoration: underline;
+    font-size:20px;
+}
+.profile{
+    font-size: 25px;
+}
+span:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+.flask,.apps,.profile:hover{
+    border-radius:50%;
+}
+.container1{
+    height:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.body{
+    height:150px;
+    width: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-image: url(https://design.google/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgd-prod%2Fimages%2Fa910d418-7123-4bc4-aa3b-ef7e25e74ae6.799a99c1196c2fd4.webp&w=2048&q=75);
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-color: #fff;
+}
+.container2{
+    height:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.body1{
+    height: 50px;
+    width: 55vw;
+    border-radius: 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: #0000001a 0px 4px 20px;
+}
+input{
+    /* height: 100px; */
+    width:100%;
+    outline: none;
+    border: none;
+}
+.img{
+    /* height:30px; */
+    width: 30px;
+}
+.container3{
+    /* height:auto; */
+    margin-top: 40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.body2{
+    height:25px;
+    width: 25px;
+    border-radius: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.container4{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+pre{
+    height:45vh;
+    width: 25px;
+    display:flex;
+    margin-right: 50px;
+    /* justify-content: top;
+    align-items: center; */
+}
+.footer{
+    display:flex;
+    justify-content: end;
+    align-items: end;
+    margin-left:20px ;
+}
+.customize{
+    /* border:1px solid; */
+    border-radius: 20px;
+    background-color:beige;
+    padding: 10px;
+}
+@media screen and (width < 550px){
+    .header{
+        display:flex;
+        justify-content: flex-end;
+        gap:5px;
+    }
+    .image,.flask,.apps{
+        display: none;
+    }
+    span{
+        font-size: 15px;
+    }
+    .profile{
+        font-size: 20px;
+    }
+    .body1>span{
+        display: none;
+    }
+}
